@@ -1,3 +1,4 @@
 [submodule "3.Implementacao"]
-	path = 3.Implementacao
-	url = https://github.com/pedrohmelo027/hobbyHub-codigo
+    path = 3.Implementacao
+    url = https://github.com/pedrohmelo027/hobbyHub-codigo.git
+    branch = main
