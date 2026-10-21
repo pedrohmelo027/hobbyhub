@@ -1,0 +1,58 @@
+﻿UC,Cenário,Conjunto,Campo,Valor,Observação
+UC01,01,D01,nome,Ana Teste,Dados fictícios; executar somente em ambiente de teste.
+UC01,01,D01,e-mail,ana.teste@example.invalid,Dados fictícios; executar somente em ambiente de teste.
+UC01,01,D01,usuário,ana_teste,Dados fictícios; executar somente em ambiente de teste.
+UC01,01,D01,senha fictícia,Ficticia-01-NaoReutilizar,Dados fictícios; executar somente em ambiente de teste.
+UC01,01,D01,biografia,Gosto de ciclismo.,Dados fictícios; executar somente em ambiente de teste.
+UC01,02,D02,e-mail,ana.teste@example.invalid,Dados fictícios; executar somente em ambiente de teste.
+UC01,02,D02,observação,Reutilizar D01 para simular duplicidade.,Dados fictícios; executar somente em ambiente de teste.
+UC02,01,D01,nome,Ana Teste,Dados fictícios; executar somente em ambiente de teste.
+UC02,01,D01,e-mail,ana.teste@example.invalid,Dados fictícios; executar somente em ambiente de teste.
+UC02,01,D01,usuário,ana_teste,Dados fictícios; executar somente em ambiente de teste.
+UC02,01,D01,senha fictícia,Ficticia-01-NaoReutilizar,Dados fictícios; executar somente em ambiente de teste.
+UC02,01,D01,biografia,Gosto de ciclismo.,Dados fictícios; executar somente em ambiente de teste.
+UC02,02,D03,e-mail administrativo,admin.teste@example.invalid,Dados fictícios; executar somente em ambiente de teste.
+UC02,02,D03,senha fictícia,Ficticia-Admin-01-NaoReutilizar,Dados fictícios; executar somente em ambiente de teste.
+UC02,02,D03,preparo,Criar conta administrativa apenas no ambiente isolado.,Dados fictícios; executar somente em ambiente de teste.
+UC02,03,D04,e-mail,ana.teste@example.invalid,Dados fictícios; executar somente em ambiente de teste.
+UC02,03,D04,senha,valor incorreto fictício,Dados fictícios; executar somente em ambiente de teste.
+UC03,01,D05,nome,Ana Teste Atualizada,Dados fictícios; executar somente em ambiente de teste.
+UC03,01,D05,biografia,Pedalo aos fins de semana.,Dados fictícios; executar somente em ambiente de teste.
+UC03,02,D06,ação,Tentar salvar alteração sem autenticação.,Dados fictícios; executar somente em ambiente de teste.
+UC04,01,D07,nome de usuário consultado,ana_teste,Dados fictícios; executar somente em ambiente de teste.
+UC04,02,D08,ação,Tentar abrir perfil sem autenticação.,Dados fictícios; executar somente em ambiente de teste.
+UC05,01,D09,tag geral,lazer,Dados fictícios; executar somente em ambiente de teste.
+UC05,01,D09,tag específica,ciclismo,Dados fictícios; executar somente em ambiente de teste.
+UC05,01,D09,descrição,Pedalei no parque com amigos.,Dados fictícios; executar somente em ambiente de teste.
+UC05,01,D09,arquivo de imagem,captura-strava.png,Dados fictícios; executar somente em ambiente de teste.
+UC05,01,D09,observação,"Arquivo fictício a preparar antes da execução; captura de tela estática, sem integração com Strava.",Dados fictícios; executar somente em ambiente de teste.
+UC05,02,D11,tag geral,lazer,Dados fictícios; executar somente em ambiente de teste.
+UC05,02,D11,tag específica,ciclismo,Dados fictícios; executar somente em ambiente de teste.
+UC05,02,D11,descrição,Pedalei no parque com amigos.,Dados fictícios; executar somente em ambiente de teste.
+UC05,02,D11,imagem,não anexada,Dados fictícios; executar somente em ambiente de teste.
+UC05,03,D10,ação,Tentar publicar sem sessão autenticada.,Dados fictícios; executar somente em ambiente de teste.
+UC06,01,D12,tag,ciclismo,Dados fictícios; executar somente em ambiente de teste.
+UC06,01,D12,pré-condição,Existem posts associados à tag.,Dados fictícios; executar somente em ambiente de teste.
+UC06,02,D12,tag,ciclismo,Dados fictícios; executar somente em ambiente de teste.
+UC06,02,D12,pré-condição,Existem posts associados à tag.,Dados fictícios; executar somente em ambiente de teste.
+UC06,03,D13,tag,xadrez,Dados fictícios; executar somente em ambiente de teste.
+UC06,03,D13,pré-condição,Não existem posts associados à tag.,Dados fictícios; executar somente em ambiente de teste.
+UC07,01,D14,autor,admin.teste@example.invalid,Dados fictícios; executar somente em ambiente de teste.
+UC07,01,D14,descrição,Post fictício criado para validar moderação.,Dados fictícios; executar somente em ambiente de teste.
+UC07,02,D15,identificador do post,POSTE-001,Dados fictícios; executar somente em ambiente de teste.
+UC07,02,D15,pré-condição,Post fictício existente no ambiente isolado.,Dados fictícios; executar somente em ambiente de teste.
+UC07,03,D16,identificador do post,POSTE-001,Dados fictícios; executar somente em ambiente de teste.
+UC07,03,D16,nova descrição,Descrição atualizada para teste.,Dados fictícios; executar somente em ambiente de teste.
+UC07,04,D15,identificador do post,POSTE-001,Dados fictícios; executar somente em ambiente de teste.
+UC07,04,D15,pré-condição,Post fictício existente no ambiente isolado.,Dados fictícios; executar somente em ambiente de teste.
+UC07,05,D17,conta,ana.teste@example.invalid,Dados fictícios; executar somente em ambiente de teste.
+UC07,05,D17,ação,Tentar editar POSTE-001 sem papel administrativo.,Dados fictícios; executar somente em ambiente de teste.
+UC08,01,D18,nome da tag,escalada,Dados fictícios; executar somente em ambiente de teste.
+UC08,02,D18,nome da tag,escalada,Dados fictícios; executar somente em ambiente de teste.
+UC08,03,D19,nome atual,escalada,Dados fictícios; executar somente em ambiente de teste.
+UC08,03,D19,novo nome,trilha,Dados fictícios; executar somente em ambiente de teste.
+UC08,04,D20,nome da tag,tag_teste_sem_uso,Dados fictícios; executar somente em ambiente de teste.
+UC08,04,D20,pré-condição,Não associada a posts.,Dados fictícios; executar somente em ambiente de teste.
+UC08,05,D22,nome da tag,vazio,Dados fictícios; executar somente em ambiente de teste.
+UC08,06,D21,conta,ana.teste@example.invalid,Dados fictícios; executar somente em ambiente de teste.
+UC08,06,D21,ação,Tentar criar ou editar tag sem papel administrativo.,Dados fictícios; executar somente em ambiente de teste.
