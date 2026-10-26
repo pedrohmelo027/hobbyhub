@@ -25,10 +25,6 @@ O HobbyHub busca oferecer um espaço para publicar diários de atividades, acomp
 
 A Visão estabelece uma aplicação web desenvolvida em **Java** com **Spring Boot**. Também registra compatibilidade prevista com diferentes sistemas operacionais, navegadores e dispositivos.
 
-## Status do projeto
-
-O projeto está na fase de arquitetura. A equipe está preparando os requisitos e modelos antes de avançar para as próximas atividades.
-
 ## Estrutura do repositório
 
 - `1.Requisitos/` — Visão, histórias de usuário e protótipos;
